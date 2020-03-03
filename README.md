@@ -1,1 +1,1 @@
-"# Math4570-AppliedAlgebraicTopology" 
+# Math4570-AppliedAlgebraicTopology
