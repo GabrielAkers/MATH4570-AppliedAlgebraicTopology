@@ -59,7 +59,7 @@ stream_16.addElement([0,7])
 
 stream_16.addElement([5,8])
 stream_16.addElement([6,9])
-stream_16.addElement([7,10])
+%stream_16.addElement([7,10])
 stream_16.addElement([4,11])
 
 stream_16.addElement([9,12])
@@ -86,8 +86,8 @@ stream_16.addElement([4,5,8])
 stream_16.addElement([5,9,8])
 stream_16.addElement([5,6,9])
 stream_16.addElement([6,9,10])
-stream_16.addElement([6,7,10])
-stream_16.addElement([7,10,11])
+%stream_16.addElement([6,7,10])
+%stream_16.addElement([7,10,11])
 stream_16.addElement([7,4,11])
 stream_16.addElement([4,11,8])
 
@@ -114,7 +114,7 @@ stream_16.finalizeStream()
 pers_16 = api.Plex4.getModularSimplicialAlgorithm(3, 2);
 
 intervals_16 = pers_16.computeIntervals(stream_16)
-%%
+%% torus with only 9 squares triangulating it
 % get a new ExplicitSimplexStream
 stream_9 = api.Plex4.createExplicitSimplexStream();
 
